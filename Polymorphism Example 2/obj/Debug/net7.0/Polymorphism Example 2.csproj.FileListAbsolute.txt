@@ -1,0 +1,14 @@
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\bin\Debug\net7.0\Polymorphism Example 2.exe
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\bin\Debug\net7.0\Polymorphism Example 2.deps.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\bin\Debug\net7.0\Polymorphism Example 2.runtimeconfig.json
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\bin\Debug\net7.0\Polymorphism Example 2.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\bin\Debug\net7.0\Polymorphism Example 2.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.AssemblyInfoInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.AssemblyInfo.cs
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.csproj.CoreCompileInputs.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\refint\Polymorphism Example 2.dll
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.pdb
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\Polymorphism Example 2.genruntimeconfig.cache
+C:\Users\Taha\OneDrive\Masaüstü\PTK\Polymorphism ve Sealed Class\Polymorphism Example 2\obj\Debug\net7.0\ref\Polymorphism Example 2.dll
