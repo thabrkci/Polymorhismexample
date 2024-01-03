@@ -30,14 +30,17 @@ class bodybuıld
 
 class Chest:bodybuıld
 {
-    public override void lIfttheweIght()
+    public override void lIfttheweIght()/*Bodybuild sınıfından lIfttheweIght(metodunu)kalıtım alarak
+    Polymorphism uyguladık kaldır metodunu değiştirerek göğüs kası ile kaldır göğüs kası için yaptık*/
+     
     {
         //base.lIfttheweIght();
         Console.WriteLine("Lift the weight with chest for chest");
     }
 }
 
-class Shoulder:bodybuıld
+class Shoulder:bodybuıld/*Göğüs kası için olan örneği burada omuz kası için  gerçekleştirdik aynı şekilde 
+kalıtım alarak.*/
 {
   public override void lIfttheweIght()
     {
