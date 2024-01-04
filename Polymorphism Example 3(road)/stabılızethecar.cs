@@ -1,25 +1,16 @@
 using System.Net.WebSockets;
 
-public class StabIlIzethecarspeed
-{
-
- public virtual void stabIlIzecar()
+public class Stabilizethecarspeed{
+ public virtual void stabilizeCar()
  {
    System.Console.WriteLine("Please Stabilize the car speed");
  }
-
-public virtual void stabIlIzecarslow()
+public virtual void stabilizeCarslow()
 {
-
   System.Console.WriteLine("Please slow and Stabilize the car speed");
-
-
 }
-
-public virtual void stabIlIzecarnormal()
+public virtual void stabilizeCarnormal()
 {
     Console.WriteLine("your speed is normal, please be careful");
 }
-
-
 }
