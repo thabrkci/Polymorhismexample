@@ -5,47 +5,34 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("WELCOME TO EXERCİSES 2!");
-        bodybuıld body = new bodybuıld();
-        body.lIfttheweIght();
+        bodyBuild body = new bodyBuild();
+        body.lifttheWeight();
         Chest chest = new Chest();
-        chest.lIfttheweIght();
+        chest.lifttheWeight();
         Shoulder shoulder = new Shoulder();
-        shoulder.lIfttheweIght();
-
-        
+        shoulder.lifttheWeight();  
     }
-
 }
-
-class bodybuıld
-{
-  public virtual void lIfttheweIght()
+public class bodyBuild{
+   public virtual void lifttheWeight()
   {
     Console.WriteLine("Lift the weight");
   }
-
-
-
 }
-
-class Chest:bodybuıld
-{
-    public override void lIfttheweIght()/*Bodybuild sınıfından lIfttheweIght(metodunu)kalıtım alarak
+public class Chest:bodyBuild{
+    public override void lifttheWeight()/*Bodybuild sınıfından lifttheWeight(metodunu)kalıtım alarak
     Polymorphism uyguladık kaldır metodunu değiştirerek göğüs kası ile kaldır göğüs kası için yaptık*/
-     
     {
-        //base.lIfttheweIght();
+        //base.lIfttheweIght();/*Bu kısmı yorum satırı olarak almamızın nedeni ağırlık kaldır metodunu göğüs kasına uyarlamak istediğimiz için lift the weight yer kaplayacağı ve fazlalık oluşturacağı için göğüs kasıyla beraber kaldır hedef bölge göğüs kası şeklinde yazdık.*/
         Console.WriteLine("Lift the weight with chest for chest");
     }
 }
-
-class Shoulder:bodybuıld/*Göğüs kası için olan örneği burada omuz kası için  gerçekleştirdik aynı şekilde 
-kalıtım alarak.*/
-{
-  public override void lIfttheweIght()
+public class Shoulder:bodyBuild{
+  public override void lifttheWeight()
     {
-        base.lIfttheweIght();
+        base.lifttheWeight();
         Console.WriteLine("Lift the weight with shoulder");
     }
-
 }
+/*Göğüs kası için olan örneği burada omuz kası için  gerçekleştirdik aynı şekilde,
+kalıtım alarak.*/
