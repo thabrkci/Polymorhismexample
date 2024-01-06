@@ -1,25 +1,36 @@
-﻿namespace Polymorphism_Example_3_road_;
+﻿using System;
 
-class Program
+namespace PolymorphismExample3
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Stabilize the car speed !");
-        Console.WriteLine("/*/*/*/*/AlleyStreet/*/*/*/*/*/*");
-        Alleystreet alleystreet = new Alleystreet();
-        alleystreet.stabilizeCar();
-        alleystreet.stabilizeCarslow();
-        //Ara sokakta yavaşlamasını ve hız sınırı 50 ye sabitlemesi için sürücüye uyarı verdik:
-        Console.WriteLine("/*/*/*/*/Maın Road/*/*/*/*/*/");
-        mainRoad maınroad = new mainRoad();
-        maınroad.stabilizeCar();
-        //Sürücü ana yolda olduğu için metodu biçimlendirdik(değiştirdik) ve yavaşlamamasını 100 ile gittiği için normal hızda olduğu için dikkatli olması gerektiğini belirttik.
-        Console.WriteLine("/*/*/*/*/*/School Road/*/*/*/*/*/");
-        Schoolroad schoolroad = new Schoolroad();
-        schoolroad.stabilizeCar();
-        schoolroad.stabilizeCarslow();
-        /*Sürücü okul yolunda olduğu için stabılıze car sınıfından kalıtım alarak yavaşlamasını gerektiğini söyledik ve
-        daha sonrasında okul yolunda olduğunu ve sağını solunu kontrol etmesi gerektiğini belirttik aynı şekilde metodumuza eklemeler yaptık biçimlendirdik.*/
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Stabilize the car speed!");
+            Console.WriteLine("/*/*/*/*/AlleyStreet/*/*/*/*/*/*");
+            
+            // Creating an instance of Alleystreet class
+            Alleystreet alleystreet = new Alleystreet();
+            alleystreet.stabilizeCar();
+            alleystreet.stabilizeCarslow();
+            // Providing a warning to the driver to slow down and limit the speed to 50 in the alley street:
 
+            Console.WriteLine("/*/*/*/*/Main Road/*/*/*/*/*/");
+            
+            // Creating an instance of mainRoad class
+            mainRoad mainroad = new mainRoad();
+            mainroad.stabilizeCar();
+            // Modifying the method for the main road since the driver does not need to slow down and can maintain the current speed of 100:
+
+            Console.WriteLine("/*/*/*/*/*/School Road/*/*/*/*/*/");
+            
+            // Creating an instance of Schoolroad class
+            Schoolroad schoolroad = new Schoolroad();
+            schoolroad.stabilizeCar();
+            schoolroad.stabilizeCarslow();
+            /* Driver is on the school road, so we inherit from the Stabilizethecarspeed class to inform the driver to slow down, 
+            and then specify that they are on the school road and need to check both left and right. We made modifications to our method. */
+
+        }
     }
 }

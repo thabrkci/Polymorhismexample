@@ -1,32 +1,32 @@
-﻿namespace Polymorphism_ve_Sealed_Class;
+﻿using System;
 
-using System;
-
-// Temel sınıf (base class)
-class Sekil
+// Base class
+class Shape
 {
-    public virtual void Ciz()
+    // Virtual method to be overridden by derived classes
+    public virtual void Draw()
     {
-        Console.WriteLine("Bir şekil çiziliyor");
+        Console.WriteLine("Drawing a shape");
     }
 }
 
-//Türetilmiş Sınıf
-class Dikdortgen : Sekil//Dikdörtgen isimli class Şekil sınıfından kalıtım almakta.
+// Derived Class
+class Rectangle : Shape
 {
-    public override void Ciz()
-    
+    // Overriding the Draw method for Rectangle
+    public override void Draw()
     {
-        Console.WriteLine("Dikdörtgen çiziliyor");
+        Console.WriteLine("Drawing a rectangle");
     }
 }
 
-// Başka bir türetilmiş sınıf (derived class)
-class Daire : Sekil
+// Another derived class
+class Circle : Shape
 {
-    public override void Ciz()
+    // Overriding the Draw method for Circle
+    public override void Draw()
     {
-        Console.WriteLine("Daire çiziliyor");
+        Console.WriteLine("Drawing a circle");
     }
 }
 
@@ -34,12 +34,12 @@ class Program
 {
     static void Main()
     {
-        // Polymorphism örneği
-        Sekil sekil1 = new Dikdortgen();
-        Sekil sekil2 = new Daire();
+        // Polymorphism example
+        Shape shape1 = new Rectangle();
+        Shape shape2 = new Circle();
 
-        // Her iki durumda da Ciz metodu farklı şekilde çalışır
-        sekil1.Ciz(); // "Dikdörtgen çiziliyor"
-        sekil2.Ciz(); // "Daire çiziliyor"
+        // In both cases, the Draw method works differently
+        shape1.Draw(); // "Drawing a rectangle"
+        shape2.Draw(); // "Drawing a circle"
     }
 }
